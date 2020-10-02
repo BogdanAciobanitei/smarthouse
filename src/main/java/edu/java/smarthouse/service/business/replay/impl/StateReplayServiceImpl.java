@@ -23,7 +23,7 @@ public class StateReplayServiceImpl implements StateReplayService {
     @Autowired
     public StateReplayServiceImpl(DeviceMapper deviceMapper,
                                   DeviceEventsDao deviceEventsDao) {
-        this.deviceMapper = deviceMapper;AwsConfig
+        this.deviceMapper = deviceMapper;
         this.deviceEventsDao = deviceEventsDao;
     }
 
