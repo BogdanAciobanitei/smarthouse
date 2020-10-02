@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: ./
+    destination: /bogdan
+hooks:
+  ApplicationStart:
+    - location: install.sh
+      runas: root
